@@ -47,9 +47,9 @@
 
 ### Story 4: Réduction du nombre de requêtes HTTP
 
-**En tant que** développeur ,  
-**je veux** réduire le nombre de requêtes HTTP 
-**afin de** pouvoir augmenter les performances de l'application.
+**En tant que** utilisateur sur un réseau lent ,  
+**je veux** que les pages se chargent rapidement
+**afin de** ne pas attendre longtemps pour pouvoir utiliser l'application sans frustration.
 
 - 🎯 Objectif : augmentation des performances
 - 🧱 BP associée : limiter le nombre de requêtes HTTP (RGESN: 6.1 et 4.9)
