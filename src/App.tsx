@@ -6,14 +6,12 @@ import {
 	Globe,
 	MemoryStick,
 	Timer,
-	Zap,
 	Layers,
 	FileText,
 	FilePlus,
 	Image,
 	Cloud,
 } from "lucide-react";
-import * as THREE from "three";
 import _ from "lodash";
 
 type Stat = {
@@ -72,7 +70,6 @@ export default function App() {
 	const [ready, setReady] = useState(false);
 
 	const canvasRef = useRef<HTMLCanvasElement>(null);
-	const injectedRef = useRef(false);
 	const intervalRef = useRef<number>();
 
 	useEffect(() => {
@@ -378,21 +375,6 @@ export default function App() {
 						value={`${stats.pl} ms`}
 						tone="bg-white/10 border-white/20"
 					/>
-				</section>
-				<section className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 mb-16">
-					<div className="flex items-center gap-4 mb-6">
-						<Zap className="w-8 h-8 text-yellow-400" />
-						<h2 className="text-2xl font-bold text-white">Visualisation 3D</h2>
-					</div>
-					<div className="flex justify-center">
-						<canvas
-							ref={canvasRef}
-							className="rounded-xl border border-white/20 shadow-2xl w-full h-96"
-						/>
-					</div>
-					<p className="text-slate-300 text-center mt-4">
-						500 cubes tournants en temps réel
-					</p>
 				</section>
 			</div>
 		</div>
