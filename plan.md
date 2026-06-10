@@ -54,3 +54,11 @@
 - Réduction du poinds du CSS <10kB (DevTools)
 - Réduction du bundle JS
 
+**<u>Réalisations</u>:**
+- [X] CSS: suppression des lignes de code non utilisées
+- [ ] Package.json: suppression des dépendances jamais utilisées
+- [ ] Three JS: suppression de l'animation (gain immédiat, impact direct sur les performances)
+- [ ] Appels API : fusion ou mise en cache des requêtes répétées.
+- [ ] Lazy loading: différer les requêtes non critiques
+- [ ] Mise en place d'un contrôle de l'animation d'accueil
+- [ ] Suppression de l'animation du titre
