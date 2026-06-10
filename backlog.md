@@ -44,3 +44,41 @@
 ...
 
 ---
+
+### Story 4: Réduction du nombre de requêtes HTTP
+
+**En tant que** développeur ,  
+**je veux** réduire le nombre de requêtes HTTP 
+**afin de** pouvoir augmenter les performances de l'application.
+
+- 🎯 Objectif : augmentation des performances
+- 🧱 BP associée : limiter le nombre de requêtes HTTP (RGESN: 6.1 et 4.9)
+- 🛠️ KPI : score performance Lighthouse > 90
+- 📅 Tag roadmap : M1
+
+---
+
+### Story 5: Suppression de fonctionnalités non essentielles
+
+**En tant que** développeur ,  
+**je veux** retirer les fonctionnalités non essentielles
+**afin de** répondre réellement au besoin de l'utilisateur
+
+- 🎯 Objectif : augmentation des performances et meilleur accessibilité
+- 🧱 BP associée : eliminer les fonctionnalités non essentielles (RGESN: 1.2 et 2.7)
+- 🛠️ KPI : score performance Lighthouse > 90
+- 📅 Tag roadmap : M2
+
+---
+
+### Story 6: Contrôler les animations
+
+**En tant que** utilisateur ,  
+**je veux** controler les animations de la page
+**afin de** naviguer de manière plus agréable sans distraction
+
+- 🎯 Objectif : rendre la page plus accessibile
+- 🧱 BP associée : éviter les animations JavaScript/CSS (RGESN: NA - RWEB 003)
+- 🛠️ KPI : score accessibilité Lighthouse > 90
+- 📅 Tag roadmap : M4
+

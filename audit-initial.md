@@ -7,12 +7,12 @@
 
 ## Résultats GreenIT
 
-EcoIndex : D (44,98)
-Eau: 3,15cl
-GES: 2,1° gCO2e
-Nombre de requêtes: 1468
-Taille de la page: 17589 Ko
-Taille du DOM: 140
+- EcoIndex : D (44,98)
+- Eau: 3,15cl
+- GES: 2,1° gCO2e
+- Nombre de requêtes: 1468
+- Taille de la page: 17589 Ko
+- Taille du DOM: 140
 
 
 ## Résultats Lighthouse
