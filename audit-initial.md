@@ -32,3 +32,4 @@
 - le nombre de requêtes
 - les animations 
 - les fonctionnalités pas nécessaires (blocs 3D threeJS en boucle)
+- Beaucoup de code mort (css, dépendance pas utilisées)

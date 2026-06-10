@@ -82,3 +82,15 @@
 - 🛠️ KPI : score accessibilité Lighthouse > 90
 - 📅 Tag roadmap : M4
 
+---
+
+### Story 7: Supprimer le code mort
+
+**En tant que** développeur ,  
+**je veux** supprimer les classes CSS et les dépendances non utilisées 
+**afin de** ne charger par le navigateur que ce qui est nécessaire.
+
+- 🎯 Objectif : supprimer 100% des classes CSS non référencées, des dépendances non importées et des imports inutiles
+- 🧱 BP associée : Ne pas importer de ressources non utilisées (RGESN: 4.7 et 4.8)
+- 🛠️ KPI : poids du CSS < 10kB après le nettoyage / O dépendance inutilisées dans le package.json
+- 📅 Tag roadmap : M1
